@@ -8,3 +8,4 @@ chmod u+x, g+x, o+r hello   This adds execute permission to the owner and the gr
 chmod ugo+x hello   This adds exection command to everybody
 chmod 007 hello   This grants access only to the other users
 chmod 753 hello   This sets the permission of owner, group and others
+chmod --reference==olleh hello This mirrors the permissions in file olleh to hello 
