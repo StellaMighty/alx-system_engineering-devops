@@ -5,3 +5,4 @@ chown betty hello This changes the owner of the file hello to betty
 touch hello THis creates an empty file called hello
 chmod u+x hello  This script adds execute permission to the owner of the file hello
 chmod u+x, g+x, o+r hello   This adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+chmod ugo+x hello   This adds exection command to everybody
