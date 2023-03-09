@@ -12,4 +12,5 @@ chmod --reference==olleh hello This mirrors the permissions in file olleh to hel
 chmod -R +X .   This adds execute permission to all subdirectories of the current directory
 mkdir -m 751 my_dir   This creates a directoryin a parent directory
 chgrp school hello   this changes the group owner to school for the file hello
-chown vincent.staff . changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+chown vincent:staff *    changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+chown -h vincent:staff _hello   script that changes the owner and the group owner of _hello to vincent and staff respectively.
