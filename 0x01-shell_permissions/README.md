@@ -9,6 +9,7 @@ chmod ugo+x hello   This adds exection command to everybody
 chmod 007 hello   This grants access only to the other users
 chmod 753 hello   This sets the permission of owner, group and others
 chmod --reference==olleh hello This mirrors the permissions in file olleh to hello
-chmod -R ugo+x .   This adds execute permission to all subdirectories of the current directory
+chmod -R +X .   This adds execute permission to all subdirectories of the current directory
 mkdir -m 751 my_dir   This creates a directoryin a parent directory
-chgrp school hello   this changes the group owner to school for the file hello 
+chgrp school hello   this changes the group owner to school for the file hello
+chown vincent.staff . changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
